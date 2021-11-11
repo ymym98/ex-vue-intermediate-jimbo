@@ -1,3 +1,6 @@
+import { format } from "date-fns";
+//const MOON_ADJUSTMENT = 1;
+
 /**
  * 野球チームを表す部品用のクラス.
  */
@@ -14,6 +17,10 @@ export class Team {
     //歴史
     private _history: string
   ) {}
+
+  get formatInauguration(): string {
+    return format(this.inauguration, "yyyy年MM月dd日");
+  }
 
   public get id(): number {
     return this._id;

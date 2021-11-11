@@ -5,7 +5,7 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
-    <router-link to="/ex01.vue">Ex01</router-link> |
+    <router-link to="/ex01">Ex01</router-link> |
   </div>
 </template>
 
@@ -14,7 +14,7 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
 }
 
